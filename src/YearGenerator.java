@@ -11,18 +11,18 @@ public class YearGenerator {
        updateCurrentYear();
 
     }
-    private void generatePeople () throws InterruptedException {
-
+    private void generatePeople ()  {
+       // generate people and store them in the people map concurrently.
     }
     private  void removeDeadPeople() {
-
+       //remove dead people from the people map;
     }
     private void archivePeopleAlive() {
-
+     // count the number of alive people in the people map, and store that count in the archive map.
 
     }
     private void updateCurrentYear() {
-
+       //increment the current year by one;
     }
 
 
