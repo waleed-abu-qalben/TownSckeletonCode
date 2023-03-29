@@ -29,11 +29,11 @@ public class Memory {
         return currentYear;
     }
     public void updateCurrentYear(){
-        currentYear++;
+        //increment current year by one.
     }
 
     public void addToArchive(String key, int value) {
-
+         // add number of alive people to the archive
     }
 
     public long getNumberOfPeople(String year) {
